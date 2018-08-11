@@ -1,0 +1,151 @@
+*{
+				padding: 0;
+				margin: 0;
+				font-size: 0.28rem;
+				font-weight: normal;
+			}
+			a{
+				text-decoration: none;
+			}
+			ul li{
+				list-style-type: none;
+			}
+			.head{
+				height: 1.25rem;
+				background-color:#f73c45;
+				/*line-height: 1.28rem;*/
+			}
+			.head .left{
+				float: left;
+				width: 0.3rem;
+				height: 0.6rem;
+				margin-top: 0.3rem;
+				margin-left: 0.3rem;
+				/*border: 1px solid;*/
+			}
+			
+			.head .title{
+				font-size: 0.35rem;
+				font-weight: normal;
+				float: left;
+				margin-left: 2.7rem;
+				margin-top: 0.4rem;
+				padding: 0;
+			}
+			.head .soso{
+				float: right;
+				width: 0.42rem;
+				margin-right: 0.32rem;
+				margin-top: 0.5rem;
+			}
+			
+			#cant{
+				width: 3rem;
+				height: 1rem;
+				background-color: black;
+				opacity: 0.7;
+				left: 50%;
+				margin-left:-1.5rem;
+				margin-top: 5rem;
+				position: absolute;
+				border-radius: 0.2rem;
+				color: white;
+				text-align: center;
+				line-height: 1rem;
+				font-size: 0.2rem;
+				position: fixed;
+				display: none;
+			}
+			.footer {
+				position: fixed;
+				bottom: -0.1rem;
+				height: 1.1rem;
+				border: 1px solid lightgray;
+				background-color: white;
+				width: 7.5rem;
+	            font-size: 0.4rem;
+	            line-height: 1.1rem;
+	            padding-left: 0.4rem;
+			}
+			.choice{
+				width: 0.4rem;
+				height: 0.4rem;
+				display: block;
+				float: left;
+				margin-top: 1rem;
+				margin-left: 0.2rem;
+			}
+			#allchoice{
+				width: 0.6rem;
+				height: 0.4rem;
+				border: 1px solid;
+			}
+			.money{
+				display: block;
+				float: left;
+				font-size: 0.4rem;
+				margin-top: -0.1rem;
+				width:3rem;
+			}
+			#sum{
+				width: 2.5rem;
+				height: 1.1rem;
+				color: white;
+				background-color:#f73c45;
+				font-size: 0.4rem;
+				float: right;
+				margin-right: 0.4rem;
+				border: none;
+			}
+			.really{
+				font-size: 0.6rem;
+				color:#f73c45;
+			}
+			.good{
+				width: 100%;
+				height: 2.5rem;
+				border-bottom: 0.01rem solid gainsboro;
+			}
+			.li-img-good{
+				width: 2rem;
+				height: 2rem;
+				float: left;
+				margin-top: 0.25rem;
+				margin-left: 0.2rem;
+			}
+			.goodTitle{
+				float: left;
+				width: 4rem;
+				height: 1rem;
+				margin-top: 0.25rem;
+				margin-left: 0.2rem;
+			}
+			.goodPrice{
+				font-size: 0.4rem;
+				color:#f73c45;
+				width: 1rem;
+				height: 0.5rem;
+				float: left;
+				margin-left: 0.2rem;
+				margin-top: 0.2rem;
+			}
+			.li-img-delete{
+				float: right;
+				margin-right: 0.5rem;
+				margin-top: 0.2rem;
+				width: 0.5rem;
+				height: 0.5rem;
+			}
+			.count{
+				float: left;
+				width: 1.6rem;
+				height: 0.5rem;
+				margin-top: 0.2rem;
+				margin-left: 0.2rem;
+			}
+			.count button{
+				display: inline;
+				width: 0.5rem;
+				height: 0.5rem;
+				font-size: 0.3rem;
+			}

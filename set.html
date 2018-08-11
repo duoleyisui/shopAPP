@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>乐购商城设置页</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<script src="js/rem.js"></script>
+		<script src="js/jQuery.js"></script>
+		<link rel="stylesheet" href="css/set.css" />
+		<style>
+		</style>
+	</head>
+	<body>
+		<!--标题开始-->
+		<div class="head">
+			<a href="#" id="back"><img class="left" src="img/left.png"></a>
+			<span class="title">设置</span>
+		</div>
+		<!--标题结束-->
+		<!--内容开始-->
+		<div class="content">
+			<ul>
+				<a href="#"><li><img src="img/list1.png">&nbsp;&nbsp;意见反馈<span style="float: right;" ><img src="img/turnright.png" class="right"></span></li></a>
+				<a href="#"><li><img src="img/list2.png">&nbsp;&nbsp;清理缓存<span style="float: right;" ><img src="img/turnright.png" class="right"></span></li></a>
+				<a href="#"><li><img src="img/list3.png">&nbsp;&nbsp;服务条款<span style="float: right;" ><img src="img/turnright.png" class="right"></span></li></a>
+				<a href="#"><li><img src="img/list4.png">&nbsp;&nbsp;检查更新<span style="float: right;" ><img src="img/turnright.png" class="right"></span></li></a>
+				<a href="#"><li><img src="img/list5.png">&nbsp;&nbsp;关于我们<span style="float: right;" ><img src="img/turnright.png" class="right"></span></li></a>
+			</ul>
+			<button class="btn">退出当前账号</button>
+		</div>
+		<!--内容结束-->
+		<!--底部开始-->
+		<div class="footer">
+			<ul>
+					<li>
+						<a href="newindex.html">
+						<img src="img/shouye.png" class="tou">
+						<p style="color:#f73c45;">首页</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+						<img src="img/shop.png" class="tou">
+						<p>商城</p>
+						</a>
+					</li>
+				<li><a><img src="img/plus.png" class="sp"></a></li>
+					<li>
+						<a href="shopCar.html">
+						<img src="img/car.png" class="tou">
+						<p >购物车</p>
+						</a>
+					</li>
+					
+					<li>
+						<a href="my.html">
+						<img src="img/my.png" class="tou">
+						<p>我的</p>
+						</a>
+					</li>
+			</ul>
+		</div>
+		<!--底部结束-->
+	</body>
+	<script>
+		//返回上一页
+	$('#back').click(function(){
+		window.history.back();
+	});
+		$('.btn').click(function(){
+			localStorage.removeItem("username");
+			//localStorage.removeItem("install");
+	        window.location.href="login.html";
+		});
+	</script>
+</html>
